@@ -1,3 +1,7 @@
+// 栈是一种特殊的列表，栈内的元素只能通过列表的一端访问，这一端称为栈顶
+// 栈被称为一种后入先出(LIFO，last-in-first-out)的数据结构
+// 所以任何不在栈顶的元素都无法访问。为了得到栈底的元 素，必须先拿掉上面的元素
+
 function CreateStack() {
     this.dataStore = [];
     this.top = 0; // 栈顶
